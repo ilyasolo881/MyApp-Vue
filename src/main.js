@@ -11,6 +11,9 @@ import * as directives from 'vuetify/directives'
 import '@mdi/font/css/materialdesignicons.min.css' // Стили Material Design Icons
 
 const vuetify = createVuetify({
+  theme: {
+    defaultTheme: 'dark'
+  },
   components,
   directives
 })
